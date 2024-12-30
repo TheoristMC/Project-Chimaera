@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Project Chimaera",
+    "description": "Fight the beast and be the beast!",
+    "uuid": "f039c5a5-2c21-4d57-b4fc-82f64d3d6b58",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "350734c9-ffab-4472-9bf1-ef663902f6af",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js",
+      "uuid": "11b7c4a5-4e95-408b-aa05-bb18bb20952b",
+      "version": "1.16.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "TheoristMC"
+    ]
+  },
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ]
+}
